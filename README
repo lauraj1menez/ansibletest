@@ -1,0 +1,28 @@
+En esta practica vamos a crear 3 servidores con virtualbox y luego vamos a automtizar diversas tareas indicadas mas abajo en los servidores usando ansible.
+
+Para hacer esta practica debe tener instalado virtualbox, vagrant y ansible. Ansible solo corre sobre linux, por lo que en tu windows debes instalar el WSL ( wsl --install)
+
+
+Ansible debe hacer lo siguiente:
+
+- Actualizar cache de software de apt
+- Instalar apache 
+- Instalar cowsay
+- Crear archivo
+- Copiar archivos 
+- Crear carpetas
+- Iniciar un servicio
+- Agregar un usuario al servidor
+- Ejecutar un script en el servidor
+
+
+Pasos:
+
+1- Instalar virtualbox, vagrant y crear 3 maquinas virtuales cada maquina de 1 core y 256MB de ram
+
+2- Instalar ansible en tu maquina y crear el inventario de servidores (en windows, debes de instalar primero wsl y luego instalar ansible)
+Si tienes windows, para instalar wsl (ubuntu), en la linea de comando escribir: wsl --install
+
+3- Con su editor de texto favor, crear Archivo de Inventario de Ansible: inventario.ini
+
+4- Crear el playbook con las tareas
